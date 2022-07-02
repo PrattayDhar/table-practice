@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="labreport2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  
+  <div class="box">
+    <h3 class="h">Sing Up</h3>
+    <form >
+        <div class="fn">
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="Enter  Fist Name" id="fname">
+        </div>
+        <div class="ln">
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="Enter Last Name" id="lname">
+        </div>
+        <div class="dob">
+            <label for="DOB">Date OF Birth</label>
+         <select name="Day">
+            <option value="Day">Day</option>
+         </select>
+         <select name="Month">
+            <option value="Month">Month</option>
+         </select>
+        
+         <select name="Year">
+            <option value="Year">Year</option>
+         </select>
+        </div>
+        
+        <div class="gn">
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+        </div>
+        <div class="cn">
+             <label for="Country">Country</label>
+            <select name="Country">
+               <option value="Country">Country</option>
+            </select>
+        </div>
+        <div class="em">
+            <label for="Email">E-Mail</label>
+            <input type="email" placeholder="Enter  E-Mail" id="email">
+        </div>
+        <div class="ps">
+            <label for="Pass">Password</label>
+            <input type="password" placeholder="Enter Password" id="Pass">
+        </div>
+        <div class="cps">
+            <label for="cPass"> Confirm Password</label>
+            <input type="password"  id="cPass">
+        </div>
+        
+        <div class="tm">
+            <input type="Checkbox"> I Agree to the Terms of use
+        </div>
+        <div class="la">
+            <input type="submit" style="background-color: green;" value="submit">
+            <input type="reset"style="background-color: red" value="Cancel">
+           
+        </div>
+        
+          </form>
+
+  </div>
+        
+  
+</body>
+</html>

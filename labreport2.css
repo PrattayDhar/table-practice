@@ -1,0 +1,43 @@
+.box{
+color:rgb(187, 235, 13);
+background-color: black;
+height: 600px;
+width: 450px;
+border:5px green solid;
+margin: 110px 100px;
+padding-right: 20px;
+
+  }
+label{
+    padding: 12px;
+    text-align:left;
+width: 300px;
+  
+}
+.fn,.ln,.em,.ps,.cps,.gn,.cn,.dob{
+    float:left;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       align-items:baseline;
+}
+h3{
+    color:yellow ;
+    background-color: brown;
+    height:30px;
+    width:450px;
+
+}
+.tm{
+    text-align: right;
+    padding-bottom: 20px;
+
+}
+.la{
+    
+    text-align: right;
+    background-color: rgb(215, 198, 4);
+    height: 50px;
+    padding: 5px;
+}
+  
