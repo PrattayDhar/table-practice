@@ -1,0 +1,9 @@
+div>p{
+    color: red;
+}
+section p {
+    color: #333;
+}
+h2:hover{
+    background-color: green;
+}

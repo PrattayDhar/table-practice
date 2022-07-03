@@ -1,0 +1,8 @@
+table,td,th,tr{
+	border: 2px solid;
+	border-collapse:collapse;
+
+}
+th{
+    background-color: aquamarine;
+}

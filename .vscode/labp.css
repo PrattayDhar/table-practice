@@ -1,0 +1,19 @@
+body{
+	table-layout: auto;
+	color: green;
+	text-align: center;
+	list-style-position: center;
+}
+table,td,th,tr{
+	border: 2px solid;
+	border-collapse:collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40%;
+	margin-top: 40%;
+	cellpadding="15";
+}
+th{
+	background-color: red;
+	color: black;
+}

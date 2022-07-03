@@ -1,0 +1,9 @@
+body{
+	background-image:url(frm.jpg);
+	border: 20px;
+}
+
+	form {
+		max-width: 64em;
+		margin: auto;
+	  }
